@@ -60,6 +60,8 @@ principio de inversión de dependencias:
     ```
 ![image](https://github.com/RichiVilla/CVDS-Lab04/assets/124943246/f460092c-757c-4e2f-9d4d-7f10c193c4f4)
 
+![image](https://github.com/RichiVilla/CVDS-Lab04/assets/124943246/3a5c665b-c67a-4f36-ae98-4c155951d48e)
+
 6. Actualice el archivo `pom.xml` e incluya las dependencias para la ultima versión de JUnit.
 
 ![image](https://github.com/RichiVilla/CVDS-Lab04/assets/124943246/742af7df-521c-4f44-8556-0331e5e04b67)
