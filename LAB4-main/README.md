@@ -1,8 +1,9 @@
 ### Escuela Colombiana de Ingeniería
 
 ### Ciclo de Vida de Desarrollo de Software
+### Laboratorio N°4
 
-### Desarrollo Dirigido por Pruebas + DIP + DI
+## Integrantes: Ricardo Villamizar - Erick Montero
 
 Para este taller se va a trabajar sobre el juego del ahorcado.
 
@@ -70,8 +71,13 @@ principio de inversión de dependencias:
    las tres variantes de GameScore, e identifique
    condiciones de frontera.
 
-7. Para cada clase de equivalencia y condición de frontera, implemente
+   ![image](https://github.com/RichiVilla/CVDS-Lab04/assets/124943246/0ab38c20-2d74-4b74-95c8-f494ed71823b)
+
+
+8. Para cada clase de equivalencia y condición de frontera, implemente
    una prueba utilizando JUnit.
+
+![image](https://github.com/RichiVilla/CVDS-Lab04/assets/124943246/e1b923ff-41e3-4ed4-97e2-d3b54fd92508)
 
 8. Haga commit de lo realizado hasta ahora. Desde la terminal:
 
