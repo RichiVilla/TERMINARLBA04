@@ -41,22 +41,28 @@ principio de inversión de dependencias:
 
 1. Haga un fork del proyecto (no lo descargue directamente!).
 
-2. A partir del código existente, implemente sólo los cascarones del
+![image](https://github.com/RichiVilla/CVDS-Lab04/assets/124943246/5dd6af4f-8f4e-4df2-bec7-9c1f28f8170f)
+
+3. A partir del código existente, implemente sólo los cascarones del
    modelo antes indicado.
 
-3. Haga la especificación de los métodos calculateScore (de las tres
+4. Haga la especificación de los métodos calculateScore (de las tres
    variantes de GameScore), a partir de las especificaciones
    generales dadas anteriormente. Recuerde tener en cuenta: @pre,
    @pos, @param, @throws.
 
-4. Haga commit de lo realizado hasta ahora. Desde la terminal:
+5. Haga commit de lo realizado hasta ahora. Desde la terminal:
 
     ```sh		
     git add .			
     git commit -m "especificación métodos"
     ```
+![image](https://github.com/RichiVilla/CVDS-Lab04/assets/124943246/f460092c-757c-4e2f-9d4d-7f10c193c4f4)
 
-5. Actualice el archivo `pom.xml` e incluya las dependencias para la ultima versión de JUnit.
+6. Actualice el archivo `pom.xml` e incluya las dependencias para la ultima versión de JUnit.
+
+![image](https://github.com/RichiVilla/CVDS-Lab04/assets/124943246/742af7df-521c-4f44-8556-0331e5e04b67)
+
 
 6. Teniendo en cuenta dichas especificaciones, en la clase donde se
    implementarán las pruebas (GameScoreTest), en los
@@ -74,23 +80,38 @@ principio de inversión de dependencias:
     git commit -m "implementación pruebas"
     ```
 
+![image](https://github.com/RichiVilla/CVDS-Lab04/assets/124943246/5495ffe6-be86-4289-bcb0-5d7dd3d9df4d)
+
+
 9. Realice la implementación de los 'cascarones' realizados anteriormente.
    Asegúrese que todas las pruebas unitarias creadas en los puntos anteriores
    se ejecutan satisfactoriamente.
 
-10. Al finalizar haga un nuevo commit:
+![image](https://github.com/RichiVilla/CVDS-Lab04/assets/124943246/c0af5984-1f35-424b-8952-12d1098a0b19)
+
+![image](https://github.com/RichiVilla/CVDS-Lab04/assets/124943246/64da714b-c659-4758-9865-a70a51a617cb)
+
+![image](https://github.com/RichiVilla/CVDS-Lab04/assets/124943246/3ab99452-2ed4-4136-a799-9812ea02839e)
+
+11. Al finalizar haga un nuevo commit:
 
     ```sh		
     git add .			
     git commit -m "implementación del modelo"
     ```
 
-11. Para sincronizar el avance en el respositorio y NO PERDER el trabajo, use
+    ![image](https://github.com/RichiVilla/CVDS-Lab04/assets/124943246/be30cafe-be4a-4367-990b-66d1e2f88dbb)
+
+
+12. Para sincronizar el avance en el respositorio y NO PERDER el trabajo, use
     el comando de GIT para enviar los cambios:
 
     ```sh
     git push origin main
     ```
+
+![image](https://github.com/RichiVilla/CVDS-Lab04/assets/124943246/f10d1cef-fccf-4ddd-8fc9-0e7e93135843)
+
 
 ### Parte II
 
@@ -102,6 +123,9 @@ constructor de la clase GUI y HangmanFactoryMethod).
 1. Utilizando el HangmanFactoryMethod (MétodoFabrica) incluya el
    OriginalScore a la configuración.
 
+![image](https://github.com/RichiVilla/CVDS-Lab04/assets/124943246/5a80dcfe-d803-44b4-a32b-626a9d98fad2)
+
+
 * Mediante la configuración de la Inyección de
   Dependencias se pueda cambiar el comportamiento del mismo, por
   ejemplo:
@@ -110,3 +134,6 @@ constructor de la clase GUI y HangmanFactoryMethod).
     * Utilizar el idioma francés.
     * Utilizar el diccionario francés.
     * etc...
+
+ ![image](https://github.com/RichiVilla/CVDS-Lab04/assets/124943246/c452f13a-d862-4ebe-96e9-250db628b300)
+
